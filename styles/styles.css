@@ -1,0 +1,190 @@
+header {
+  background-color: black;
+  color: white;
+  height: 140px;
+  text-align: center;
+  font-size: 60px;
+  font-family: sans-serif;
+}
+
+main {
+  background-image: url("Images/Army.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 1200px;
+}
+
+#sith {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 30%;
+  left: 15%;
+  background-color: red;
+  opacity: 1;
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+
+#jedi {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 30%;
+  left: 58%;
+  background-color: greenyellow;
+  opacity: 1;
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
+  font-size: 25px;
+  font-family: sans-serif;
+  text-align: right;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  height: 80px;
+  font-size: 30px;
+  font-family: sans-serif;
+  text-align: left;
+}
+
+#newGame {
+  width: 300px;
+  height: 120px;
+  margin: 0;
+  position: absolute;
+  top: 110%;
+  left: 32.5%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+}
+
+#rollDice {
+  width: 300px;
+  height: 120px;
+  margin: 0;
+  position: absolute;
+  top: 110%;
+  left: 67.5%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+}
+
+#img1 {
+  width: 150px;
+  height: 150px;
+  position: relative;
+}
+
+#img2 {
+  width: 150px;
+  height: 150px;
+  position: relative;
+}
+
+#img3 {
+  width: 150px;
+  height: 150px;
+  position: relative;
+}
+
+#img4 {
+  width: 150px;
+  height: 150px;
+  position: relative;
+}
+
+#sithWin {
+  background-image: url("Images/Plagueis.jpg");
+  position: absolute;
+  width: 455px;
+  height: 695px;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
+}
+
+#jediWin {
+  background-image: url("Images/Yoda.jpg");
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 473px;
+  height: 494px;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+
+#draw {
+  background-color: white;
+  position: absolute;
+  width: 200px;
+  height: 60px;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  font-family: sans-serif;
+  font-size: 50px;
+  color: black;
+  text-align: center;
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
+}
+
+#firstLine {
+  top: 30%;
+  font-family: sans-serif;
+  font-size: 50px;
+  color: white;
+  position: relative;
+  text-align: center;
+}
+
+#midLine {
+  top: 35%;
+  font-family: sans-serif;
+  font-size: 20px;
+  color: white;
+  position: relative;
+  text-align: center;
+}
+
+#secondLine {
+  top: 35%;
+  font-family: sans-serif;
+  font-size: 35px;
+  color: white;
+  position: relative;
+  text-align: center;
+}
+
+#wise {
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+
+#slime {
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}/*# sourceMappingURL=styles.css.map */
